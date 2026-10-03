@@ -1,0 +1,4 @@
+target User: Emma
+Method of solve: usar el comando sed para localizar la linea especifica del fichero
+Key command:
+sed -n '4069p' findme.txt
