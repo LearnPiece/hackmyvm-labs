@@ -1,0 +1,4 @@
+Target user: eleanor
+Method of solve: localizar directorio y archivo que tienes un tamaño especifico en byte
+Key command:
+find / -type f -size 6969c 2>/dev/null
