@@ -1,1 +1,4 @@
-
+Target user: Camila
+Method of solve: localizar directorio especifico con tipo y nombre
+Key Command:
+find / -type d -name hereiam 2>/dev/null
