@@ -1,0 +1,4 @@
+Target user: violet
+Method of solve: localizar una contraseña en un archivo especifico
+Key Command:
+grep -n '^a9HFX' passy
