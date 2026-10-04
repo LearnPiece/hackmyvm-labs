@@ -1,0 +1,4 @@
+Target user: lucy
+Method of solve: hacer coincidir caracteres en un archivo donde hay caracteres especifico al final de linea
+Key command:
+grep -n '0JuAZ$' end
