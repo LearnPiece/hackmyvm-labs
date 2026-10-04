@@ -1,0 +1,4 @@
+Target user: Victoria 
+Method of solve: localizar un fichero de un propetario en especifico
+Key command: 
+find / -type f -user violin 2>/dev/null
