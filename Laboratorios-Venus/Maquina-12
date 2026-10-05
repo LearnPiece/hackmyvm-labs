@@ -1,0 +1,4 @@
+Target user: elena
+Method of solve: buscar en un archivo una palabra especifica utilizando los primeros y ultimos caracteres
+Key command:
+grep -nE '^fu.*ck$' file.yo
