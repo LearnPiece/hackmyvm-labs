@@ -2,3 +2,13 @@ Target user: elena
 Method of solve: buscar en un archivo una palabra especifica utilizando los primeros y ultimos caracteres
 Key command:
 grep -nE '^fu.*ck$' file.yo
+
+Desglose del comando.
+
+grep: Busca líneas que coincidan con un patrón.
+-n: Muestra el número de línea donde encontró la coincidencia.
+-E: Esto permite utilizar patrones como .*.
+^fu: La línea debe comenzar con fu.
+.*: Cualquier carácter, cero o más veces.
+ck$: La línea debe terminar en ck. 
+file.yo: Es el archivo donde se realiza la búsqueda. 
