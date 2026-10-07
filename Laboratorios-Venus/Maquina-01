@@ -2,3 +2,9 @@ Target user -> Sophia
 Method of solving: leer directorio oculto
 key command:
 ls -la
+
+Descripcion del comando:
+
+ls: Significa listar (list) el contenido del directorio actual.
+-l: Significa formato largo (long listing).
+-a: Significa mostrar todos (all), incluyendo los archivos ocultos.
