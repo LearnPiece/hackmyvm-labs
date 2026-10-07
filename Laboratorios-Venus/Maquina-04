@@ -3,7 +3,7 @@ Method of solve: leer un archivo que comienza con un caracte especial
 Key command:
 cat ./-
 
-Descripcion del comando.
+Desglose del comando:
 
 cat: Sirve para mostrar el contenido de un archivo en la terminal.
 ./: El directorio actual
