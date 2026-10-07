@@ -2,3 +2,11 @@ Target user: lucy
 Method of solve: hacer coincidir caracteres en un archivo donde hay caracteres especifico al final de linea
 Key command:
 grep -n '0JuAZ$' end
+
+Desglose del comando.
+
+grep: Busca texto dentro de un archivo.
+-n: Muestra el número de línea donde encontró la coincidencia.
+0JuAZ: texto que estamos buscando.
+$: significa final de la línea.
+end: Es el archivo donde grep realizará la búsqueda.
