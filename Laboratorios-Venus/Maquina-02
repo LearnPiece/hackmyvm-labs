@@ -2,3 +2,12 @@ Taget user: Angela
 Method of solve: buscar un determinado nombre de un archivo usando find
 key command:
 find / -name whereismypazz.txt 2>/dev/null
+
+Descripcion del comando:
+
+find: Es una herramienta de Linux para buscar archivos y directorios.
+/: significa la raíz del sistema.
+-name: Indica que queremos buscar algo por su nombre.
+whereismypazz.txt: Es el nombre exacto que estamos buscando.(Documento)
+2: representa stderr, es decir, los mensajes de error.
+/dev/null: funciona como un basurero de datos: lo que se envía ahí desaparece.
