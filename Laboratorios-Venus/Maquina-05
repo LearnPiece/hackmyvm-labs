@@ -2,3 +2,11 @@ Target user: Camila
 Method of solve: localizar directorio especifico con tipo y nombre
 Key Command:
 find / -type d -name hereiam 2>/dev/null
+
+Descripcion del comando.
+
+find: Es el comando utilizado para buscar archivos y directorios.
+/: Indica que la búsqueda comienza desde la raíz del sistema.
+-type d: le estamos diciendo a find que queremos encontrar carpetas, no archivos.
+hereiam : Nombre del directorio.
+2>/dev/null: Oculta los mensajes de error.
