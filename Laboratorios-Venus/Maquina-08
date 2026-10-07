@@ -2,3 +2,7 @@ Target user: Victoria
 Method of solve: localizar un fichero de un propetario en especifico
 Key command: 
 find / -type f -user violin 2>/dev/null
+
+Desglose del comando: 
+
+find / -type f -user violin 2>/dev/null: Sirve para buscar en todo el sistema los archivos cuyo propietario sea el usuario violin.
