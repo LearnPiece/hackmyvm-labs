@@ -3,7 +3,7 @@ Method of solve: localizar un archivo en un directorio especifico
 Key Command:
 find muack -type f | xargs file
 
-Descripcion del comando:
+Desglose del comando:
 
 find muack: Busca dentro del directorio muack.
 -type f: La f significa file (archivo).
