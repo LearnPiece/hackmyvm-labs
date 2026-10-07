@@ -2,3 +2,11 @@ Target user: Luna
 Method of solve: localizar un archivo en un directorio especifico
 Key Command:
 find muack -type f | xargs file
+
+Descripcion del comando:
+
+find muack: Busca dentro del directorio muack.
+-type f: La f significa file (archivo).
+|: Es un pipe (tubería).
+xargs: Toma los nombres de archivos encontrados por find y los convierte en argumentos para otro comando.
+file: Analiza el contenido de cada archivo y te dice qué tipo de archivo es realmente.
