@@ -3,7 +3,7 @@ Method of solve: usar el comando sed para localizar la linea especifica del fich
 Key command:
 sed -n '4069p' findme.txt
 
-Descripcion del comando
+Desglose del comando:
 
 sed: Es una herramienta de Linux para procesar y modificar texto, especialmente archivos línea por línea.
 -n: No muestres las líneas automáticamente, así podemos seleccionar exactamente qué línea queremos mostrar.
