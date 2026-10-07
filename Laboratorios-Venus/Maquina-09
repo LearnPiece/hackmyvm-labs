@@ -2,3 +2,7 @@ Target user: isla
 Method of solve: copiar en una directorio /tmp, un archivo tipo zip para extraer el archivo txt de leer el contenido
 key command:
 unzip passw0rd.zip
+
+Desglose del comando.
+
+unzip: Es el programa de Linux que permite abrir y extraer archivos .zip.
