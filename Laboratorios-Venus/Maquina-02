@@ -3,7 +3,7 @@ Method of solve: buscar un determinado nombre de un archivo usando find
 key command:
 find / -name whereismypazz.txt 2>/dev/null
 
-Descripcion del comando:
+Desglose del comando:
 
 find: Es una herramienta de Linux para buscar archivos y directorios.
 /: significa la raíz del sistema.
