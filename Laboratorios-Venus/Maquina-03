@@ -2,3 +2,11 @@ target User: Emma
 Method of solve: usar el comando sed para localizar la linea especifica del fichero
 Key command:
 sed -n '4069p' findme.txt
+
+Descripcion del comando
+
+sed: Es una herramienta de Linux para procesar y modificar texto, especialmente archivos línea por línea.
+-n: No muestres las líneas automáticamente, así podemos seleccionar exactamente qué línea queremos mostrar.
+4069: número de línea.
+p: print, es decir, imprimir/mostrar
+findme.txt: Es el archivo sobre el que sed va a trabajar.
