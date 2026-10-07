@@ -3,7 +3,7 @@ Method of solving: leer directorio oculto
 key command:
 ls -la
 
-Descripcion del comando:
+Desglose del comando:
 
 ls: Significa listar (list) el contenido del directorio actual.
 -l: Significa formato largo (long listing).
