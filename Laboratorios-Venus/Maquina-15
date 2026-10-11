@@ -1,0 +1,10 @@
+Target user: Natalia
+Method of solve: cambiar de usuario con privilegio elevado
+Key command:
+sudo -u natalia /bin/bash
+
+Desglose del comando
+
+sudo: Solicita ejecutar una acción con permisos elevados o de otro usuario.
+-u: Especifica que el usuario de destino es natalia.
+/bin/bash: Abre una nueva consola Bash.
