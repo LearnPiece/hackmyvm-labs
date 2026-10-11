@@ -1,0 +1,5 @@
+Target user: Natalia
+Method of solve: cambiar de usuario con privilegio elevado
+Key command:
+sudo -u natalia /bin/bash
+
