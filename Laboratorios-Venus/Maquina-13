@@ -1,9 +1,19 @@
 Target user: Alice
 Method of solve: localizar una variable entorno en un archivo 
 Key command:
-env
+env.
+env | grep -iE 'pass|password|pwd|secret
+
 
 Desglose del comando
 
 env: Este comando muestra las variables de entorno disponibles en tu sesión
 
+env | grep -iE 'pass|password|pwd|secret
+
+env: muestra las variables de entorno.
+|: envía la salida del primer comando al siguiente.
+grep: busca coincidencias en el texto.
+-i: ignora las diferencias entre mayúsculas y minúsculas.
+-E: permite utilizar varios patrones de búsqueda.
+'pass|password|pwd|secret': busca cualquiera de esas palabras.
