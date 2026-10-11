@@ -1,7 +1,9 @@
-Target user: 
-Method of solve: 
+Target user: Alice
+Method of solve: localizar una variable entorno en un archivo 
 Key command:
-
+env
 
 Desglose del comando
+
+env: Este comando muestra las variables de entorno disponibles en tu sesión
 
