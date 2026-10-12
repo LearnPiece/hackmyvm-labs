@@ -1,0 +1,13 @@
+Target user: anna
+Method of solve: encontrar comentario en un archivo
+Key command:
+cut -d: -f1,5 /etc/passwd | grep alice
+
+Desglose de comando
+
+cut: Extrae partes específicas de cada línea.
+-d:	Usa los dos puntos (:) como separador de campos.
+-f1,5: Extrae el campo 1 y el campo 5.
+/etc/passwd: Archivo que contiene información de las cuentas de usuario.
+\|: Envía el resultado del primer comando al siguiente.
+grep alice:	Busca líneas que contengan alice.
