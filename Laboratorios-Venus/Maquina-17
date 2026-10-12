@@ -1,0 +1,13 @@
+Target user: clara
+Method of solve: encontrar un archivo modificado en una fecha especifica
+key command:
+find / -type f -mtime +18440 2>/dev/null
+
+Desglose de comando.
+
+find:	Busca archivos y directorios.
+/:	Comienza la búsqueda desde la raíz del sistema Linux.
+-type f:	Selecciona solamente archivos normales, no directorios.
+-mtime:	Filtra según el tiempo transcurrido desde la última modificación del archivo.
++18440:	Busca archivos modificados hace más de 18.440 períodos de 24 horas.
+2>/dev/null:	Oculta los mensajes de error, por ejemplo, los de permisos denegados.
