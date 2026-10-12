@@ -1,0 +1,10 @@
+Target user: eva
+Method of solve: descodificar un archivo en base64 para mostrar el password
+Key command:
+base64 -d base64.txt
+
+Desglose de comando.
+
+base64: herramienta para codificar o decodificar.
+-d: significa decode, es decir, decodificar.
+base64.txt: archivo que contiene el texto codificado.
