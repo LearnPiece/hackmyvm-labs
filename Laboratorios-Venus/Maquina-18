@@ -1,0 +1,14 @@
+Target User: frida
+Method of solve: crakear contraseña de archivo .zip
+Key command:
+
+fcrackzip -v -u -D -p ~/rockyou.txt ~/protected.zip
+
+Desglose de comando:
+
+fcrackzip: ejecuta la herramienta de búsqueda de contraseñas.
+-v: muestra información detallada.
+-u: verifica las contraseñas probando la extracción del archivo.
+-D: utiliza un diccionario de contraseñas.
+-p ~/rockyou.txt: indica el archivo con las palabras que debe probar.
+~/protected.zip: el ZIP que queremos desbloquear.
